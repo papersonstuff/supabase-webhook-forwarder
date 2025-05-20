@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "api/forward-to-supabase.js", "use": "@vercel/node" }
+  ],
+  "routes": [
+    { "src": "/api/forward-to-supabase", "dest": "api/forward-to-supabase.js" }
+  ]
+}
